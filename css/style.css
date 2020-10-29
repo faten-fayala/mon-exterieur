@@ -991,15 +991,12 @@ a {
 .E {
   position: absolute;
   right: 94%;
-  -webkit-filter: opacity(1) drop-shadow(0 0 0 #82b24e);
-  filter: opacity(0.5) drop-shadow(0 0 0 #82b24e);
+  
   transform: rotate(-20deg);
 }
 
 .configuration:hover .E {
-  -webkit-filter: opacity(1) drop-shadow(0 0 0 #653c36);
-  filter: opacity(0.4) drop-shadow(0 0 0#653c36);
-  /* content:url('/moon/assets/E\ maron.png'); */
+ content:url('../assets/E\ maron.png'); 
 }
 
 .configuration-item {
