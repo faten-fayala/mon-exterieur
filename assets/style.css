@@ -1,0 +1,105 @@
+
+  /* .realisations{
+    width:90%;
+    background-color: red;
+    margin-left: auto;
+    height:80vh;
+} */
+
+/* [1] The container */
+.img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    width:300px;
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+
+  .zoom-img:hover .logo-img {
+    opacity:0;
+  }
+.zoom-img{
+    position: relative;
+    height: 300px;
+    width:300px;
+}
+  .logo-img {
+      position:absolute;
+      height:100px;
+      width:100px;
+      top:50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      opacity:0;
+      transition: .5s ease;
+  }
+  .zoom-img:hover .logo-img {
+    opacity:1;
+  }
+  
+
+
+
+  .carousa{
+      
+      height:110vh;
+      margin-top:10px;
+  }
+
+  .owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .owl-nav button.owl-prev {
+    left: 0;
+  }
+  .owl-nav button.owl-next {
+    right: 0;
+  }
+  
+  .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: #000;
+  }
+  .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  .owl-nav button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.38) !important;
+  }
+  span {
+      font-size: 70px;    
+      position: relative;
+      top: -5px;
+  }
+  .owl-nav button:focus {
+      outline: none;
+  }

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Exterieur</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="./css/all.css">
+  <!----------- Custom style -------------->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!------------ Font Awesome Icons ------>
+
+  <script src="https://kit.fontawesome.com/fcdbb5efb6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="navigation">
+    <div class="nav-hidden">
+      <div class="nav1">
+        <div class="nav-section1">
+          <div class="logo-site">
+            <img src="./assets/Logo.png" alt="logo" />
+          </div>
+
+          <form method="post">
+            <input type="text" class="textbox" placeholder="Recherche" />
+            <input title="Search" value="" type="submit" class="button" />
+          </form>
+
+          <div class="localisation">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Notre magasin</p>
+          </div>
+        </div>
+        <div class="nav-section2">
+          <div class="acceuil">
+            <div class="center">
+              <span>Acceuil</span>
+            </div>
+
+
+
+          </div>
+          <div class="boutique">
+            <span>Boutique</span>
+          </div>
+          <div class="realisation">
+            <span>Nos réalisations</span>
+          </div>
+          <div class="contacter">
+            <div class="dropdown">
+              <span>Contactez-nous</span>
+              <div class="form">
+                <form>
+                  <img src="./assets/coordonnees.png" alt="">
+                  <p>Hey! Pour toute informations ou suggestions,Merci de remplir le formulaire suivant</p>
+                  <input type="text" id="fname" name="Nom & Prénom" placeholder="Nom & Prénom">
+
+                  <input type="text" id="lname" name="E-mail" placeholder="E-mail">
+                  <input type="text" id="lname" name="N° Téléphone" placeholder="N° Téléphone">
+                  <label for="fname">Message</label>
+                  <textarea name="message" rows="4" cols="50"></textarea>
+
+
+
+                  <input type="submit" value="ENVOYER">
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="nav2">
+        <img src="./assets/configurateur.png" alt="" />
+        <h3 class="title-configurateur">Configurateur</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------slideshow-container -------------->
+  <div class="carousel">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="slidetitle">
+          <h2>Grille rigide</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div>
+            <a href="#">en savoir plus <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <img src="./assets/slideimg.png" style="width: 100%" />
+        <div class="text">
+          <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-arrow-left"></i></a>
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+
+          <a class="next" onclick="plusSlides(1)"><i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---x-----slideshow-container --------x------>
+
+  <!-- ------------- Site Content ----------------->
+
+  <div class="site-content">
+    <div class="description-produits">
+      <div class="gammes-produits">
+        <h2>Découvrer nos gammes produits</h2>
+
+        <div class="produits">
+          <div class="img-card">
+            <hr class="hr-img" />
+            <div class="item">
+              <!--Zoom effect-->
+              <div class="img-hover-zoom">
+                <img src="./assets/lame composite.png" alt="Lame composite" />
+              </div>
+              <div class="overlay"></div>
+              <div class="title-image">Lame composite</div>
+            </div>
+            <div>
+              <p>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="img-card">
+            <hr class="hr-img" />
+            <div class="item">
+              <!--Zoom effect-->
+              <div class="img-hover-zoom">
+                <img src="./assets/lame bois.png" alt="Lame en bois" class="img" />
+              </div>
+              <div class="overlay"></div>
+              <div class="title-image">Lame en bois</div>
+            </div>
+            <div>
+              <p>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="img-card">
+            <hr class="hr-img" />
+            <div class="item">
+              <!--Zoom effect-->
+              <div class="img-hover-zoom">
+                <img src="./assets/panneau bois.png" alt="Panneau bois" class="img" />
+              </div>
+              <div class="overlay"></div>
+              <div class="title-image">Panneau bois</div>
+            </div>
+            <div>
+              <p>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="img-card">
+            <hr class="hr-img" />
+            <div class="item">
+              <!--Zoom effect-->
+              <div class="img-hover-zoom">
+                <img src="./assets/grille rigide.png" alt="grille rigide" class="img" />
+              </div>
+              <div class="overlay"></div>
+              <div class="title-image">Grille rigide</div>
+            </div>
+            <div>
+              <p>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="img-card">
+            <hr class="hr-img" />
+            <div class="item">
+              <!--Zoom effect-->
+              <div class="img-hover-zoom">
+                <img src="./assets/gabion.png" alt="Gabion" class="img" />
+              </div>
+              <div class="overlay"></div>
+              <div class="title-image">Gabion</div>
+            </div>
+            <div>
+              <p>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="configuration">
+        <img src="./assets/E vert.png" alt="" class="E" />
+        <div class="configuration-item">
+          <img src="./assets/configurateur.png" alt="" />
+          <div class="title">
+            <h2>Configurer votre espace</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elitr,sed
+              diam nonumy eairmod tempor invidu.
+            </p>
+          </div>
+          <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="realisations">
+      <div class="slide">
+        <div class="slide-description">
+          <div class="slide-description-title">
+            <h2>Panneau bois</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Dignissimos, neque iure explicabo architecto itaque ratione,
+              deserunt in amet iste ullam debitis deleniti consequuntur
+              blanditiis quidem tempore repudiandae corporis quasi ipsa!
+            </p>
+          </div>
+          <div class="slide-arrow">
+            <i class="fas fa-arrow-left"></i>
+
+            <div style="text-align: center" class="dot-slide">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot dot-active" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="title-realisations">
+        <h2>Nos realisations</h2>
+      </div>
+
+      <div class="img-realisations">
+        <div class="bloc-image">
+          <div class="img-realisations-panneau">
+            <img src="./assets/panneau.png" alt="panneau" />
+          </div>
+          <div>
+            <img src="./assets/E.png" alt="logo" class="logo-E-realisations" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="travaux">
+      <div class="travaux-imgs">
+        <div class="travaux-img">
+          <img src="" alt="" class="installation" />
+          <div class="overlay"></div>
+          <div class="back"></div>
+          <div class="description-installation">
+            <h2>Notice <br />& installation</h2>
+            <p>
+              Avant de commencer,calculer la quantité de bois,de<br> béton et de
+              quincaillerie dont vous aurez besoin.
+            </p>
+            <div class="installation-details">
+              <p>EN SAVOIR PLUS</p>
+              <i class="fas fa-arrow-right arrow-overlay"></i>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="travaux-img">
+          <div class="img-zoom">
+            <img src="./assets/conseil projet.png" alt="" />
+          </div>
+
+          <div class="overlay"></div>
+          <div class="description-travaux-img">
+            <img src="./assets/E.png" alt="" class="logo-E" />
+            <h2>Conseil pour votre projet</h2>
+            <i class="fas fa-arrow-right arrow-overlay"></i>
+          </div>
+        </div>
+
+        <div class="travaux-img">
+          <div class="img-zoom">
+            <img src="./assets/livraison.png" alt="" />
+          </div>
+          <div class="overlay"></div>
+          <div class="description-travaux-img">
+            <img src="./assets/E.png" alt="" class="logo-E" />
+            <h2>Livraison & transport</h2>
+            <i class="fas fa-arrow-right arrow-overlay"></i>
+          </div>
+        </div>
+
+        <div class="travaux-img">
+          <div class="img-zoom">
+            <img src="./assets/magasin.png" alt="" />
+          </div>
+          <div class="overlay"></div>
+          <div class="description-travaux-img">
+            <img src="./assets/E.png" alt="" class="logo-E" />
+            <h2>Notre magasin</h2>
+            <i class="fas fa-arrow-right arrow-overlay"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="hr" />
+  </div>
+
+  <!-- ---------x------------- Site Content ---------------x----------->
+
+  <!-- --------------------------- Footer ---------------------------------------- -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-item">
+        <img src="./assets/Logo.png" alt="logo" class="footer-logo" />
+      </div>
+      <div class="footer-item">
+        <h2>Lien Utiles</h2>
+        <p>Configurateur</p>
+        <p>Notre magasin</p>
+        <p>Notice et installation</p>
+        <p>Livraison Transport</p>
+      </div>
+      <div class="footer-item">
+        <h2>Nous Contacter</h2>
+        <span>Adress:</span>
+        <p>
+          3 rue de champ de verger<br />
+          Allonnes,Pays de la Loire,<br />France
+        </p>
+        <span>Telephone:</span>
+        <p>+33 2 43 57 00 87</p>
+      </div>
+      <div class="footer-item">
+        <h2>Horaires</h2>
+        <span>Lundi a vendredi</span>
+        <p><i class="fas fa-clock"></i> 7:30-12:00</p>
+        <p><i class="fas fa-clock"></i> 13:30-18:00</p>
+        <span>Samedi<br />(Fermé les samedis de janvier et février)</span>
+        <p><i class="fas fa-clock"></i> 9:00-12:00</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="form">
+    <form>
+      <img src="./assets/coordonnees.png" alt="">
+      <p>Hey! Pour toute informations ou suggestions,Merci de remplir le formulaire suivant</p>
+      <input type="text" id="fname" name="Nom & Prénom" placeholder="Nom & Prénom">
+
+      <input type="text" id="lname" name="E-mail" placeholder="E-mail">
+      <input type="text" id="lname" name="N° Téléphone" placeholder="N° Téléphone">
+      <label for="fname">Message</label>
+      <textarea name="message" rows="4" cols="50"></textarea>
+
+
+
+      <input type="submit" value="ENVOYER">
+    </form>
+  </div>
+
+
+
+  <!-- -------------x------------- Footer --------------------x------------------- -->
+
+  <!----------- Custom javascript file ----------->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
