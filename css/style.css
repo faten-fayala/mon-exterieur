@@ -9,6 +9,14 @@ body {
   overflow-x: hidden;
 
 }
+.header{
+  height: 85px;
+  background-color:white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+}
 
 .body {
   position: relative;
@@ -1137,6 +1145,7 @@ textarea {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
+  top:0;
 }
 
 .contacter:hover .form {
