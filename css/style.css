@@ -1032,7 +1032,9 @@ a {
 .arrow {
   color: white;
 }
-
+.configuration:hover .arrow {
+  margin-left: 10rem;
+}
 /*----------x------configuration----x---------*/
 
 /* ----------------- Footer --------------------- */
